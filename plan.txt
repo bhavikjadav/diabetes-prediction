@@ -1,0 +1,28 @@
+Description:
+
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. 
+
+The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, 
+based on certain diagnostic measurements included in the dataset. 
+
+Several constraints were placed on the selection of these instances from a larger database. 
+
+In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+
+Plan:
+
+1. Data Collection - Done From Kaggle
+2. Data Preparation
+    2.1 EDA
+    2.2 Data Preprocessing
+        2.2.1 Feature Imputation (if required).
+        2.2.2 Feature Encoding (if required).
+        2.2.3 Feature Normalization (if required).
+        2.2.4 Feature Engineering - Including Data Decompozation, Data Discretization
+        2.2.5 Feature Selection - Using Dimensionality Reduction, Looking @ Correlations with output variable.
+        2.2.6 Deal with imbalances (if required).
+3. Data Splitting
+    3.1 Training Data (80% of the entire data)
+    3.2 Validation Data (10% of the entire data)
+    3.3 Testing Data (10% of the entire data)
+4. 
